@@ -52,15 +52,15 @@ const sliceData = data.contents.slice(0, 2);
     </div>
     <Image className={styles.bgimg} src="/img-mv.jpg" alt="" width={4000} height={1200} />
     </section>
-<section className={styles.news}>
-    <h2 className={styles.newsTitle}>News</h2>
-    <NewsList news={sliceData} />
-    <div className={styles.newsLink}>
+    <section className={styles.news}>
+        <h2 className={styles.newsTitle}>News</h2>
+        <NewsList news={sliceData} />
+        <div className={styles.newsLink}>
           <ButtonLink href="/news">
             もっとみる
           </ButtonLink>
         </div>
-      </section>
-      </>
+    </section>
+    </>
   );
 } 
